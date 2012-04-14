@@ -1,0 +1,6 @@
+Proxy Server.
+
+It uses UDP packets to transfer request between Client and Proxy server.
+Proxy Server uses ICMP request to gather the current state of the webserver for which HTTP request is intented to.
+
+Proxy Server finally uses TCP to establish a connection to webserver and fetch data and sends it back to user using Datagram packets.
